@@ -12,8 +12,9 @@ Accuracy: 86.7%, Avg loss(Cross Entropy): 0.37927
 RNN from scratch made only using basic nn.module
 terribly slow due to python loops, so dummy data is used
 
-# Seq2Seq
-Sequnce to Sequence encoder-decoder with LSTM, BLEU caps at 14, but loss rises ? 
+## Seq2Seq
+Sequnce to Sequence encoder-decoder with LSTM, BLEU caps at 14, but loss rises.
+using different data to fix, takes too long to train, sample data gives 6.8 BLEU
 
-# TRansformer 
-Data is simple so the transformer overfits. adding even a signle dropout causes Bleu to fall to 0 aand loss to spike
+#3 Transformer 
+Simple transformer implememnted from research paper, gets Bleu of 91 on test data
