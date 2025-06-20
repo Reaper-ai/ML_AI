@@ -16,5 +16,5 @@ terribly slow due to python loops, so dummy data is used
 Sequnce to Sequence encoder-decoder with LSTM, BLEU caps at 14, but loss rises.
 using different data to fix, takes too long to train, sample data gives 6.8 BLEU
 
-#3 Transformer 
+## Transformer 
 Simple transformer implememnted from research paper, gets Bleu of 91 on test data
